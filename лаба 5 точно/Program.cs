@@ -13,5 +13,10 @@ namespace лаба_5_точно
             Console.WriteLine("Privet eblanio!");
             Console.ReadLine();
         }
+
+        static void ass(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
