@@ -10,7 +10,8 @@ namespace лаба_5_точно
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Privet eblanio!");
+            Console.ReadLine();
         }
     }
 }
