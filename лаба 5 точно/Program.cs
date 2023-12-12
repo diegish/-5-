@@ -11,13 +11,13 @@ namespace лаба_5_точно
         static int vvodA, vvodB;
         static void Main(string[] args)
         {
-            while (vvodB == 0)
+            while (vvodA == 0)
             {
-                Console.WriteLine("Введите B: ");
+                Console.WriteLine("Введите A: ");
                 string vvod = Console.ReadLine();
                 try
                 {
-                    vvodB = int.Parse(vvod);
+                    vvodA = int.Parse(vvod);
                 }
                 catch
                 {
@@ -38,10 +38,6 @@ namespace лаба_5_точно
                 }
             }
             Console.WriteLine("A = " + vvodA + "\n" + "B = " + vvodB);
-
-            Console.Write("Результат сложения: " + vvodA + " + " + vvodB + " = ");
-            int rezu = vvodA + vvodB;
-            Console.WriteLine(rezu);
 
 
 
