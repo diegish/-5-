@@ -48,7 +48,8 @@ namespace лаба_5_точно
             Console.Write("Результат delenia: " + vvodA + " / " + vvodB + " = ");
             Console.WriteLine((float)vvodA / vvodB);
 
-
+            Console.Write("Результат umnozshenia: " + vvodA + " * " + vvodB + " = ");
+            Console.WriteLine(vvodA * vvodB);
 
 
 
