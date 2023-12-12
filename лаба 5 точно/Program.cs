@@ -43,7 +43,9 @@ namespace лаба_5_точно
             int rezu = vvodA + vvodB;
             Console.WriteLine(rezu);
 
-
+            Console.Write("Результат вычитания: " + vvodA + " + " + vvodB + " = ");
+            rezu = vvodA - vvodB;
+            Console.WriteLine(rezu);
 
 
 
