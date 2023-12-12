@@ -40,14 +40,13 @@ namespace лаба_5_точно
             Console.WriteLine("A = " + vvodA + "\n" + "B = " + vvodB);
 
             Console.Write("Результат сложения: " + vvodA + " + " + vvodB + " = ");
-            int rezu = vvodA + vvodB;
-            Console.WriteLine(rezu);
+            Console.WriteLine(vvodA + vvodB);
 
             Console.Write("Результат вычитания: " + vvodA + " + " + vvodB + " = ");
-            rezu = vvodA - vvodB;
-            Console.WriteLine(rezu);
+            Console.WriteLine(vvodA - vvodB);
 
-
+            Console.Write("Результат delenia: " + vvodA + " / " + vvodB + " = ");
+            Console.WriteLine((float)vvodA / vvodB);
 
 
 
