@@ -24,7 +24,19 @@ namespace лаба_5_точно
                     Console.WriteLine("Давай заново");
                 }
             }
-
+            while (vvodB == 0)
+            {
+                Console.WriteLine("Введите B: ");
+                string vvod = Console.ReadLine();
+                try
+                {
+                    vvodB = int.Parse(vvod);
+                }
+                catch
+                {
+                    Console.WriteLine("Давай заново");
+                }
+            }
             Console.WriteLine("A = " + vvodA + "\n" + "B = " + vvodB);
 
 
